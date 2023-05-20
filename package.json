@@ -1,0 +1,12 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "private": true,
+  "workspaces": [
+    "core",
+    "bank-nestjs",
+    "bank-nextjs"
+  ]
+}
