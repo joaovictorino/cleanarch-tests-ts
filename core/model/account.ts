@@ -1,5 +1,5 @@
 export class Account {
   transfer() {
-    return 500;
+    return 1000;
   }
 }

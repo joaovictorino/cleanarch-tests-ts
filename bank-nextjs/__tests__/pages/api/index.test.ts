@@ -11,7 +11,7 @@ describe("API Index", () => {
 
     expect(res._getStatusCode()).toBe(200);
     expect(JSON.parse(res._getData())).toEqual(
-      expect.objectContaining({ valor: 500 })
+      expect.objectContaining({ valor: 1000 })
     );
   });
 });
